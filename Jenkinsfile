@@ -1,4 +1,5 @@
 pipeline{
+    agent any
 stages {
     stage('Checkout') {
         // Checkout your Java project from version control (e.g., Git)
