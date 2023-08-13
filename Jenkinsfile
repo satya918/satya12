@@ -1,4 +1,5 @@
-node {
+pipeline{
+stages {
     stage('Checkout') {
         // Checkout your Java project from version control (e.g., Git)
         checkout scm
