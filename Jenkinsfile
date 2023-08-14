@@ -22,6 +22,6 @@ stages {
         def warFilePath = "target/*.war" // Adjust the WAR file path
 
         // Use curl to deploy the WAR file to Tomcat using the Tomcat Manager API
-        sh "curl --upload-file ${target/*.war} --user ${toomcat}:${Password} ${http://13.49.49.215:8090/manager/html}/deploy?path=/your-java-app&update=true"
+        sh "curl --upload-file ${target/*.war} --user ${tomcat}:${Password} ${http://13.49.49.215:8090/manager/html}/deploy?path=/your-java-app&update=true"
     }
 }
