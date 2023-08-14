@@ -16,7 +16,7 @@ stages {
         def tomcatUrl = "http://16.170.214.237:8090/" // Adjust the URL for your Tomcat server
         def tomcatUser = "tomcat"
         def tomcatPassword = "password"
-        def tomcatManagerUrl = "${http://16.170.214.237:8090/0}/manager/text"
+        def tomcatManagerUrl = "${http://16.170.214.237:8090/}/manager/text"
 
         // Path to your WAR file after the build
         def warFilePath = "target/*.war" // Adjust the WAR file path
